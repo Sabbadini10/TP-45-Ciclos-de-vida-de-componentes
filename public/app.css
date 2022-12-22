@@ -245,7 +245,7 @@ select {
 [type="reset"],
 [type="submit"],
 button {
-  -webkit-appearance: button;
+  --webkit-appearance: button;
 }
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -295,7 +295,7 @@ progress {
 }
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: none;
+  --webkit-appearance: none;
 }
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
